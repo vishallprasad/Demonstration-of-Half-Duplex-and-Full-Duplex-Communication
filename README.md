@@ -44,8 +44,9 @@ This project is intended for students, beginners, and networking enthusiasts who
 The following topology illustrates the network used to demonstrate **Full-Duplex** and **Half-Duplex** communication.
 
 <p align="center">
-<img width="903" height="170" alt="Full_Duplex+Half_Duplex" src="https://github.com/user-attachments/assets/ff24bbbd-aed6-4289-b6b7-2e37432edff4" />
+ <img src="images/data_transmission_modes.png" alt="Data Transmission Modes" width="700">
 </p>
+
 
 ### Full-Duplex Communication
 ```text
@@ -135,7 +136,7 @@ Observe that the ping command returns **successful replies**, confirming connect
 
 ### Full-Duplex
 <p align="center">
-<img width="1296" height="294" alt="Full_Duplex" src="https://github.com/user-attachments/assets/260eb4ca-c064-48f9-8290-2190d62e1f54" />
+   <img src="images/full_duplex.gif" alt="Full Duplex Communication" width="700">
 </p>
 
 ## Part B – Half-Duplex Communication
@@ -175,7 +176,7 @@ ping 192.168.2.2
 
 ### Half-Duplex
 <p align="center">
-<img width="1270" height="298" alt="Half Duplex" src="https://github.com/user-attachments/assets/1716d767-a02c-4589-91b4-fc76b4fc85b9" />
+  <img src="images/half_duplex.gif" alt="Half Duplex Communication" width="700">
 </p>
 
 > **Note:** A hub operates in **half-duplex mode**, meaning only **one device can transmit data at a time**. Since all connected devices share the same communication medium, simultaneous transmissions can result in collisions. This behavior differs from a switch, which supports **full-duplex communication**, allowing devices to send and receive data simultaneously.
